@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="panda-admin" />
+        <module name="panda-framework" />
+        <module name="panda-common" />
+        <module name="panda-system" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="panda" target="11.0.10" />
+      <module name="panda-admin" target="11.0.10" />
+      <module name="panda-common" target="11.0.10" />
+      <module name="panda-framework" target="11.0.10" />
+      <module name="panda-system" target="11.0.10" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="panda-admin" options="-parameters" />
+      <module name="panda-common" options="-parameters" />
+      <module name="panda-framework" options="-parameters" />
+      <module name="panda-system" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/panda.iml" filepath="$PROJECT_DIR$/panda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/panda-admin/panda-admin.iml" filepath="$PROJECT_DIR$/panda-admin/panda-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/panda-common/panda-common.iml" filepath="$PROJECT_DIR$/panda-common/panda-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/panda-framework/panda-framework.iml" filepath="$PROJECT_DIR$/panda-framework/panda-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/panda-system/panda-system.iml" filepath="$PROJECT_DIR$/panda-system/panda-system.iml" />
+    </modules>
+  </component>
+</project>
