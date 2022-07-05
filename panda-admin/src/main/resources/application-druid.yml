@@ -1,0 +1,65 @@
+# 配置数据源
+spring:
+  redis:
+    host: localhost
+    port: 6379
+#    # jedis连接池的最大连接数,默认是8个
+#    spring.redis.jedis.pool.max-active=10
+#    # jedis连接池的最大空闲连接数
+#    spring.redis.jedis.pool.max-idle=10
+#    # jedis 获取空闲连接的最大的等待时间,超过这个时间没有获取到redis 的connection将会报错
+#    spring.redis.jedis.pool.max-wait=10s
+#    # jedis 的连接池的最小的空闲连接数
+#    spring.redis.jedis.pool.min-idle=5
+#    # 初次连接 redis 服务器的最大的等待时间
+#    spring.redis.timeout=5000ms
+    jedis:
+      pool:
+        max-active: 10
+        max-wait: 10s
+        max-idle: 10
+        min-idle: 5
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      url: jdbc:mysql://localhost:3300/film?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+      username: root
+      password: root
+
+      # 初始连接数
+      initialSize: 5
+      # 最小连接池数量
+      minIdle: 10
+      # 最大连接池数量
+      maxActive: 20
+      # 配置获取连接等待超时的时间
+      maxWait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      timeBetweenEvictionRunsMillis: 60000
+      # 配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 300000
+      # 配置一个连接在池中最大生存的时间，单位是毫秒
+      maxEvictableIdleTimeMillis: 900000
+      # 配置检测连接是否有效
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+### redis 相关的配置
+## 连接的redis数据库变好,默认是0
+#spring.redis.database=0
+## 连接的redis的主机ip,默认是 localhost
+#spring.redis.host=localhost
+## 连接的 redis 的服务器的接口
+#  spring.redis.port=6379
+#  # jedis连接池的最大连接数,默认是8个
+#  spring.redis.jedis.pool.max-active=10
+#  # jedis连接池的最大空闲连接数
+#  spring.redis.jedis.pool.max-idle=10
+#  # jedis 获取空闲连接的最大的等待时间,超过这个时间没有获取到redis 的connection将会报错
+#  spring.redis.jedis.pool.max-wait=10s
+#  # jedis 的连接池的最小的空闲连接数
+#  spring.redis.jedis.pool.min-idle=5
+#  # 初次连接 redis 服务器的最大的等待时间
+#  spring.redis.timeout=5000ms
