@@ -42,5 +42,8 @@
 ## [熊猫电影网站(springboot+ssm+vue+element+shiro+jwt+redis)前后端分离](https://blog.csdn.net/m0_61504367/article/details/123964741)
 
 ![qrcode1647915638191](https://user-images.githubusercontent.com/94291160/177333362-a795ce53-540e-4523-90d0-8d817c453f99.jpg)
+![F7FC442BC8404F642B361508B41666A8](https://user-images.githubusercontent.com/94291160/177333586-94c75415-8c0b-4617-9dd9-b3f4ec025827.jpg)
+
+![F0F6DB9FAEE222F2ACFDCDAD2985C750](https://user-images.githubusercontent.com/94291160/177333479-69bdfe99-7463-40d2-9099-e91c9dc4c08c.jpg)
 
 
