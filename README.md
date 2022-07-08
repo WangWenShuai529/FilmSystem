@@ -5,7 +5,7 @@
 # 代码获取
 关注我公众号，汪程序员
 ## b站教程
-
+[https://www.bilibili.com/video/BV1XT411u7Dk/](https://www.bilibili.com/video/BV1XT411u7Dk/)
 ## sql
 回复“熊猫电影sql”，“redis”
 ## 代码
